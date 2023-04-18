@@ -4,6 +4,7 @@ const introButt = document.getElementById("introButt");
 const workButt = document.getElementById("workButt");
 const aboutButt = document.getElementById("aboutButt");
 const contactButt = document.getElementById("contactButt");
+const main = document.querySelector("main");
 
 introButt.addEventListener("click", () => {
   const introModal = new Modal("Intro", "./images/tab-2.jpg", "Metu labai ramina mane kartais.");

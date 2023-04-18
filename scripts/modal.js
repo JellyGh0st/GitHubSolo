@@ -26,15 +26,18 @@ export default class Modal {
       this.closeBtn.addEventListener("click", () => {
         this.close();
       });
-  
-      document.body.appendChild(this.modal);
     }
   
     open() {
-      this.modal.style.display = "block";
-    }
+        this.main = document.querySelector("main");
+        this.main.style.display = "none";
+        document.body.appendChild(this.modal);
+        this.modal.style.display = "block";
+      }
   
     close() {
+      this.main.style.display = "block";
       this.modal.style.display = "none";
     }
   }
+  

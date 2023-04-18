@@ -112,6 +112,25 @@ main p a:hover {
    
 }
 
+.modal {
+   background-color: #313131ee;
+   width: 84vw;
+   height: 90vh;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 15px;
+}
+
+.modal img {
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   object-fit: cover;
+   z-index: 10;
+}
+
 @media only screen and (min-width: 601px) {
 
    main h1 {
@@ -140,22 +159,6 @@ main p a:hover {
    }
 }
 
-.modal {
-   background-color: #6999ff;
-   width: 96vw;
-   height: 98vh;
-   position: fixed;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   padding: 15px;
-}
-
-.modal img {
-   width: 100%;
-   height: 100%;
-   background-size: cover;
-}
 
 @media only screen and (min-width: 900px) {
 
