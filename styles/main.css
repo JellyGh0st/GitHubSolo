@@ -81,7 +81,7 @@ main p a {
 }
 
 main p a:hover {
-   color: #6a90e2;
+   color: #6999ff;
  }
 
 .bottDash {
@@ -104,6 +104,12 @@ main p a:hover {
    border-radius: 2px;
    font-weight: 250;
    font-size: 12px;
+}
+
+.buttons button:hover {
+   background-color: #f0f8ff38;
+   cursor: pointer;
+   
 }
 
 @media only screen and (min-width: 601px) {
@@ -135,6 +141,11 @@ main p a:hover {
 }
 
 @media only screen and (min-width: 900px) {
+
+   body {
+      background-position: center 60%;
+      padding: 0 4vw;
+   }
 
    main h1 {
       font-weight: 550;
