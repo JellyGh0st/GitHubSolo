@@ -9,8 +9,8 @@ export default class Modal {
       this.content = `
         <div class="modal-header">
           <span class="close">&times;</span>
-          <h2>${this.title}</h2>
         </div>
+        <h1>${this.title}</h1>
         <div class="modal-body">
           <div>
             <img src="${this.imageSrc}">
